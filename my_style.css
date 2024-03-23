@@ -44,30 +44,30 @@ pre{
 
 /* Links */
 a:link {
-	color: #000099;
+	color: #0000aa;
 	text-decoration:none;
 } a:visited {
-	color: #000099;
+	color: #0000aa;
 	text-decoration:none;
 } a:hover {
-	color: #0000ee;
+	color: #0000ff;
 	text-decoration:none;
 } a:active {
-	color: #000099;
+	color: #0000aa;
 	text-decoration:none;
 }
 @media (prefers-color-scheme: dark) {
 	a:link {
-		color: #ddffff;
-		text-decoration:none;
-	} a:visited {
-		color: #ddffff;
-		text-decoration:none;
-	} a:hover {
 		color: #aaffff;
 		text-decoration:none;
+	} a:visited {
+		color: #aaffff;
+		text-decoration:none;
+	} a:hover {
+		color: #55ffff;
+		text-decoration:none;
 	} a:active {
-		color: #ddffff;
+		color: #aaffff;
 		text-decoration:none;
 	}
 }
