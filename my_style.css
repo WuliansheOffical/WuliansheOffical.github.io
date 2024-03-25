@@ -103,6 +103,11 @@ a:link {
 }
 .HeadInHead {
 	font-family: "Times New Roman", "宋体";
+	color: #222222;
+} @media (prefers-color-scheme: dark) {
+	.HeadInHead {
+		color: #dddddd;
+	}
 }
 
 /* Footer */
